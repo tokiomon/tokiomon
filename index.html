@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokiomon's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <label for="language">Choose Language:</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="ka">Georgian</option>
+                <option value="ru">Russian</option>
+            </select>
+        </div>
+        <h1 id="title">Tokiomon's World</h1>
+        <p id="intro">Welcome to my creative hub! Connect with me on socials below:</p>
+        <div class="social-links">
+            <a href="https://discord.gg/uzBZpqwdBs" target="_blank" class="social-icon discord">
+                <i class="fab fa-discord"></i>
+                <span id="discord-text">Join My Discord</span>
+            </a>
+            <a href="https://www.instagram.com/tokiomon_?igsh=MXg2NGtlbjR4dDN5dw==" target="_blank" class="social-icon instagram">
+                <i class="fab fa-instagram"></i>
+                <span id="instagram-text">Follow on Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/@Toniomon" target="_blank" class="social-icon youtube">
+                <i class="fab fa-youtube"></i>
+                <span id="youtube-text">Subscribe on YouTube</span>
+            </a>
+            <a href="https://grok.com" target="_blank" class="social-icon grok">
+                <i class="fas fa-robot"></i>
+                <span id="grok-text">Chat with Grok</span>
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
